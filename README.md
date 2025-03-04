@@ -10,8 +10,8 @@ hyper realistic discord friend with:
 
 these features are all operated through a combination of tool calling (by freewill of the bot whenever it wants), good system prompting, and background api calls to handle freewill/memory systems.
 
-made the bot for fun to test out gemini's api and their free limit.
-also bcz i saw how awfully made other llm-powered roleplay and companion products were.
+idea behind this was prompted by seeing how awful other llm powered roleplay and companian products were designed. also so i can test out and use gemini since they have high free api ratelimits (good exp w gemini! i could not have done this project as easily w other models).
+
 the main thing ive optimized for in design is for immersion. you want saki to feel real when talking to it, all other tangental optimization targets will follow accordingly by aiming for realism.
 
 calls are not just made per interaction, just to operate the bot and its freewill and memory systems calls are made even with complete idle conversation. in a complete idle state minimum 3 calls are made per hour.
