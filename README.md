@@ -15,7 +15,7 @@ idea behind this was prompted by seeing how awful other llm powered roleplay and
 the main thing ive optimized for in design is for immersion. you want saki to feel real when talking to it, all other tangental optimization targets will follow accordingly by aiming for realism.
 
 calls are not just made per interaction, just to operate the bot and its free will and memory systems calls are made even with complete idle conversation. in a complete idle state minimum 3 calls are made per hour.
-direct interactions and i/o are handled by 2.0 flash
+direct interactions and i/o are handled by 2.0 flash.
 2.0 flash lite is used to operate the context and memory system, we have long context (realistically we could do up to 1m, but <100k keeps conversation better imo). we use flash lite to summarize and store all events after 50k tokens up to 100k (limits can all be adjusted in config).
 
 
