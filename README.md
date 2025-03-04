@@ -1,7 +1,27 @@
 # saki
-hyper realistic discord friend with freewill, advanced context/memory, realistic conversational abilities, search abilities, decide when/if to respond, multimodal input/outputs (send it images/video n receive images/video), and live time integrated into 
+hyper realistic discord friend with:
+- freewill
+- advanced context/memory
+- realistic conversational abilities
+- search abilities
+- decide when/if to respond
+- multimodal input/outputs (send it images/video n receive images/video)
+- time-based world understanding (local time built into context, system prompting, and all messages)\
+
+these features are all operated through a combination of tool calling (by freewill of the bot whenever it wants), good system prompting, and background api calls to handle freewill/memory systems.
 
 made the bot for fun to test out gemini's api and their free limit.
+also bcz i saw how awfully made other llm-powered roleplay and companion products were.
+the main thing ive optimized for in design is for immersion. you want saki to feel real when talking to it, all other tangental optimization targets will follow accordingly by aiming for realism.
 
-2.0 flash lite is used to operate the context and memory system, we have long context (realistically we could do up to 1m, but <100k keeps conversation effective). we use flash lite to summarize and store all events after 50k tokens up to 100k (can all be adjusted in config).
-actual calls/bot interactions are handled via 2.0 flash
+calls are not just made per interaction, just to operate the bot and its freewill and memory systems calls are made even with complete idle conversation. in a complete idle state minimum 3 calls are made per hour.
+direct interactions and i/o are handled by 2.0 flash
+2.0 flash lite is used to operate the context and memory system, we have long context (realistically we could do up to 1m, but <100k keeps conversation better imo). we use flash lite to summarize and store all events after 50k tokens up to 100k (limits can all be adjusted in config).
+
+
+
+features to be implemented:
+- gallery tool (better tooling to let saki send more media)
+- use vc
+- "game" mode 
+
