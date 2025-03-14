@@ -1,5 +1,5 @@
 # saki
-hyper realistic discord friend with:
+hyper realistic companion on discord (DM or invite to server) with:
 - free will
 - advanced context/memory
 - realistic conversational abilities
